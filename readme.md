@@ -3,7 +3,8 @@ This Powershell script is designed for for exporting Activity log as CSV across 
 
 
 ##  Step 1: Install the Azure PowerShell Module
-    If you haven't install the following Azure PowerShell module, please send these commands:
+If you haven't install the following Azure PowerShell module, please send these commands:
+
 ```
     Install-Module -Name Az.Accounts -AllowClobber -Force
     Install-Module -Name Az.Sql -AllowClobber -Force
@@ -50,13 +51,13 @@ Edit the config.yaml file: Update the values for Days, MaxRecord, and OperationN
 - Delete existing SQL virtual machine
 ```
 
-##  Step 6: Execute the checksqlahb.ps1 for checking
+##  Step 6: Execute the export.ps1
 Open powershell, locate to the script folder, execute  [export](export.ps1)
 ``` 
 .\export.ps1
 ``` 
 
-Check the activity log may takes 1-2 minutues for each resource group approximately. Please be patient if your subscriptions have a lot of resource groups.
+Check the activity log may takes **1-2 minutues for each resource group** approximately. Please be patient if your subscriptions have a lot of resource groups.
 
-After you see "Exporting is completed. Check the output-xxxxx.csv for details.", then it is done.
+After you see **"Exporting is completed. Check the output-xxxxx.csv for details."**, then it is done.
 
