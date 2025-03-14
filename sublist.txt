@@ -1,0 +1,3 @@
+"SubscriptionName", "SubscriptionId", "TenantId"
+your-sub-name1, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx1, yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyy
+your-sub-name2, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx2, yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyy

@@ -1,0 +1,9 @@
+Configuration:
+  Days: 60
+  MaxRecord: 100
+  OperationNames:
+    - Create new or update existing SQL virtual machine
+    - Create or Update Virtual Machine
+    - Delete Virtual Machine
+    - Delete existing SQL virtual machine
+    # Add more operation names as needed
